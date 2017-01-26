@@ -29,6 +29,7 @@ class Login extends CI_Controller {
 				$this->session->set_userdata($estado);
 				
 					header("Location: ".base_url());
+					// posisicon
 			}
 			else
 			{
